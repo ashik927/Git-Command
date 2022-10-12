@@ -1,4 +1,4 @@
-##Getting & Creating Projects
+##Getting & Creating Projects Start
 
 git init   =>	 
  Initialize a local Git repository
@@ -6,10 +6,10 @@ git init   =>
 git clone   =>	   
 ssh://git@github.com/[username]/[repository-name].git	Create a local copy of a remote repository
 
-##Getting & Creating Projects
+##Getting & Creating Projects End
 
 
-##Basic Snapshotting
+##Basic Snapshotting Start
 
 git status   =>	  	
 Check status
@@ -97,10 +97,10 @@ Remove all stashed entries
 git-reset or git merge --abort   =>	  	
 Use git-reset or git merge --abort to cancel a merge that had conflicts.
 
-##Branching & Merging
+##Branching & Merging End
 
 
-##Sharing & Updating Projects
+##Sharing & Updating Projects Start
 
 git push origin [branch name]   =>	  	
 Push a branch to your remote repository
@@ -126,10 +126,10 @@ Add a remote repository
 git remote set-url origin ssh://git@github.com/[username]/[repository-name].git   =>	  	
 Set a repository's origin branch to SSH
 
-##Sharing & Updating Projects
+##Sharing & Updating Projects End
 
 
-##Inspection & Comparison
+##Inspection & Comparison Start
 
 git log   =>	  	
 View changes
@@ -143,4 +143,4 @@ View changes (briefly)
 git diff [source branch] [target branch]   =>	  	
 Preview changes before merging
 
-##Inspection & Comparison
+##Inspection & Comparison End

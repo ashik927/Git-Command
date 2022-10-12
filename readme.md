@@ -1,4 +1,4 @@
-Getting & Creating Projects
+##Getting & Creating Projects
 
 git init   =>	 
  Initialize a local Git repository
@@ -6,8 +6,10 @@ git init   =>
 git clone   =>	   
 ssh://git@github.com/[username]/[repository-name].git	Create a local copy of a remote repository
 
+##Getting & Creating Projects
 
-Basic Snapshotting
+
+##Basic Snapshotting
 
 git status   =>	  	
 Check status
@@ -42,9 +44,10 @@ Git keeps track of updates to the tip of branches using a mechanism called reflo
 git revert   =>	  	
 Undoes a committed snapshot. When you discover a faulty commit, reverting is a safe and easy way to completely remove it from the code base.
 
+##Basic Snapshotting
 
 
-Branching & Merging
+##Branching & Merging
 
 git branch   =>	  	
 List branches (the asterisk denotes the current branch)
@@ -94,8 +97,10 @@ Remove all stashed entries
 git-reset or git merge --abort   =>	  	
 Use git-reset or git merge --abort to cancel a merge that had conflicts.
 
+##Branching & Merging
 
-Sharing & Updating Projects
+
+##Sharing & Updating Projects
 
 git push origin [branch name]   =>	  	
 Push a branch to your remote repository
@@ -121,8 +126,10 @@ Add a remote repository
 git remote set-url origin ssh://git@github.com/[username]/[repository-name].git   =>	  	
 Set a repository's origin branch to SSH
 
+##Sharing & Updating Projects
 
-Inspection & Comparison
+
+##Inspection & Comparison
 
 git log   =>	  	
 View changes
@@ -135,3 +142,5 @@ View changes (briefly)
 
 git diff [source branch] [target branch]   =>	  	
 Preview changes before merging
+
+##Inspection & Comparison
